@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'BebasNeue' ;
+    src: url(../font/BebasNeue-Regular.woff);
+}
+body{
+    margin: 0;
+    font-family: 'BebasNeue', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    
+    
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #202429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 25px;
+    background: #28323b;
+    box-shadow: 0px 10px 25px #00000056 ;
+    border-radius: 25px;
+}
+
+.card-login > h1{
+    color: #59b0f8;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.left-login > h1{
+    color: #90caf9;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 12pt;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    background-color: #485f69;
+    color: #ffffffde;
+    font-size: 16pt;
+    box-shadow: 0px 10px 25px #00000056  ;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #d8d7d7de;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0feff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #202429;
+    background: #59b0f8;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #027bb352;
+}
+
+.img-login{
+    width: 75%;
+}
